@@ -14,10 +14,7 @@ jobs:
         uses: actions/setup-java@v4.6.0
         with:
           java-version: '11'
-          distribution: 'adoptopenjdk'  # You can use 'openjdk', 'adoptopenjdk', or others if desired
+          distribution: 'temurin'  # Correct distribution for AdoptOpenJDK (now Adoptium)
           
       - name: Verify Java installation
         run: java -version
-    
-   
-    
